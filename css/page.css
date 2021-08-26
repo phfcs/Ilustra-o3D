@@ -1,0 +1,50 @@
+#dialog {
+    display: none;
+    position: absolute;
+    left: 50px;
+    top: 200px;
+}
+
+html {
+    overflow: hidden;
+    background-color: rgb(255, 255, 249);
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.button .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.button:hover .tooltiptext {
+    visibility: visible;
+}

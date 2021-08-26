@@ -1,0 +1,43 @@
+#onPointDialog {
+    background-color: rgba(194, 212, 247, 0);
+    border: 1px solid #00000000;
+    border-radius: 6px;
+    padding: 0px 5px;
+}
+
+#onPointDialog .button {
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 3px black;
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    max-width: 150px;
+    margin: 2px 5px;
+    text-decoration: none;
+}
+
+#onPointDialog .button figure {
+    margin: 0 0 -4px;
+}
+
+#onPointDialog .button figure img {
+    border-radius: 100%;
+}
+
+#onPointDialog .button .text {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1d368a;
+    margin: 0 0 5px;
+    font-size: 8px;
+}
+
+#onPointDialog img {
+    width: 20px;
+    height: 20px;
+}
+
+#onPointDialog #finishCurve {
+    float: left;
+}

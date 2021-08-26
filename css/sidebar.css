@@ -1,0 +1,95 @@
+#avaliacoes {
+    width: 3vw;
+    height: 3vh;
+    border-radius: 6px;
+}
+
+#sidebar {
+    float: left;
+    width: 20vw;
+    height: 100vh;
+    background-color: rgba(227, 206, 240, 0.856);
+    box-shadow: 0 0 6px black;
+}
+
+#canvas {
+    margin-left: 20vw;
+}
+
+canvas {
+    width: 80vw;
+    height: 100vh;
+}
+
+#createCurveButton {
+    background: #ccc url("add.svg") no-repeat center;
+    height: 80px;
+    width: 80px;
+}
+
+figure > img {
+    width: 1.2vw;
+    height: 1.2vw;
+}
+
+#sidebar .button {
+    opacity: 80%;
+    background: #fff;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    width: 2.5vw;
+    height: 2.5vw;
+    text-decoration: none;
+    box-shadow: 0 0 3px black;
+}
+
+#sidebar .button figure {
+    margin: 0 0 5px;
+}
+
+#sidebar .button figure img {
+    border-radius: 100%;
+}
+
+#sidebar .button .text {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1d368a;
+    font-size: 0.5vw;
+}
+
+#sidebar #manageButtons {
+    width: 100%;
+}
+
+.center {
+    width: 70%;
+    margin: auto;
+}
+
+.space {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#title {
+    font-size: 1vw;
+    margin-bottom: 2vh;
+}
+.controlsLabels {
+    float: left;
+    width: 150px;
+}
+
+.controls {
+    margin-bottom: 10px;
+}
+
+footer {
+    position: fixed;
+    left: 3.75vw;
+    bottom: 0;
+    font-size: 0.75vw;
+}
